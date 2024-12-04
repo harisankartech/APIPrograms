@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064083cc-301d-46a8-b398-5a28e03cb799" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GROUPATB/APIGetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GROUPATB/BuilderPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GROUPATB/TC_BDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GROUPATB/TC_NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IntegrationScenario/TC_Integration.java" afterDir="false" />
-    </list>
+    <list default="true" id="064083cc-301d-46a8-b398-5a28e03cb799" name="Changes" comment="APIIntegrationCommit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +18,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:harisankartech/APIPrograms.git",
+    "accountId": "d9b73c40-2b28-41db-ad9b-e810136031e8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -59,7 +57,7 @@
     "TestNG.TC_Integration.executor": "Run",
     "TestNG.TC_Integration.getBookingId.executor": "Run",
     "TestNG.TC_NonBDDStyle.RequestNEGATIVE.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "API__Basics",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/API_ATB_Practice/ATB8xAPIPractice",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -166,7 +164,20 @@
       <option name="presentableId" value="Default" />
       <updated>1733235919573</updated>
     </task>
+    <task id="LOCAL-00001" summary="APIIntegrationCommit">
+      <option name="closed" value="true" />
+      <created>1733321946317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733321946317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="APIIntegrationCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="APIIntegrationCommit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
