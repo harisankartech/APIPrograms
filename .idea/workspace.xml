@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="064083cc-301d-46a8-b398-5a28e03cb799" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GROUPATB/APIGetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GROUPATB/BuilderPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GROUPATB/TC_BDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GROUPATB/TC_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntegrationScenario/TC_Integration.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2pi5BH7ZlosUVosd3HsjLCjoh6t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.APIGetTest.executor": "Run",
+    "Application.BuilderPattern.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.D:/API_ATB_Practice/ATB8xAPIPractice/testng.xml.executor": "Run",
+    "TestNG.TC_BDDStyle.executor": "Run",
+    "TestNG.TC_Integration.TC_1_GetRequest.executor": "Run",
+    "TestNG.TC_Integration.TC_2_PostRequest.executor": "Run",
+    "TestNG.TC_Integration.TC_3_PutRequest.executor": "Run",
+    "TestNG.TC_Integration.TC_4_PatchRequest.executor": "Run",
+    "TestNG.TC_Integration.TC_5_DeleteRequest.executor": "Run",
+    "TestNG.TC_Integration.executor": "Run",
+    "TestNG.TC_Integration.getBookingId.executor": "Run",
+    "TestNG.TC_NonBDDStyle.RequestNEGATIVE.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/API_ATB_Practice/ATB8xAPIPractice",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.D:/API_ATB_Practice/ATB8xAPIPractice/testng.xml">
+    <configuration name="D:/API_ATB_Practice/ATB8xAPIPractice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIPractice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Integration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntegrationScenario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationScenario" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationScenario.TC_Integration" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Integration.TC_3_PutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntegrationScenario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationScenario" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationScenario.TC_Integration" />
+      <option name="METHOD_NAME" value="TC_3_PutRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Integration.TC_4_PatchRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntegrationScenario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationScenario" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationScenario.TC_Integration" />
+      <option name="METHOD_NAME" value="TC_4_PatchRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Integration.TC_5_DeleteRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntegrationScenario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IntegrationScenario" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationScenario.TC_Integration" />
+      <option name="METHOD_NAME" value="TC_5_DeleteRequest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/API_ATB_Practice/ATB8xAPIPractice/testng.xml" />
+        <item itemvalue="TestNG.TC_Integration" />
+        <item itemvalue="TestNG.TC_Integration.TC_5_DeleteRequest" />
+        <item itemvalue="TestNG.TC_Integration.TC_4_PatchRequest" />
+        <item itemvalue="TestNG.TC_Integration.TC_3_PutRequest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="064083cc-301d-46a8-b398-5a28e03cb799" name="Changes" comment="" />
+      <created>1733235919573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733235919573</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/IntegrationScenario/TC_Integration.java</url>
+          <line>81</line>
+          <properties class="IntegrationScenario.TC_Integration" method="TC_1_GetRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/IntegrationScenario/TC_Integration.java</url>
+          <line>98</line>
+          <properties class="IntegrationScenario.TC_Integration" method="TC_2_PostRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/IntegrationScenario/TC_Integration.java</url>
+          <line>128</line>
+          <properties class="IntegrationScenario.TC_Integration" method="TC_3_PutRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/IntegrationScenario/TC_Integration.java</url>
+          <line>165</line>
+          <properties class="IntegrationScenario.TC_Integration" method="TC_4_PatchRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/IntegrationScenario/TC_Integration.java</url>
+          <line>191</line>
+          <properties class="IntegrationScenario.TC_Integration" method="TC_5_DeleteRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
