@@ -2,6 +2,7 @@ package Tests;
 
 import BaseTest.BaseTest;
 import Endpoints.APIConstants;
+import Modules.PayloadManager;
 import POJOs.Booking;
 import POJOs.BookingResponse;
 import io.qameta.allure.Description;
@@ -54,14 +55,34 @@ public class IntegrationFlow extends BaseTest {
     @Owner("HarisankarR")
     @Description("TC_3-Update a booking by id")
     @Test(priority = 2,groups = {"qa","prod","si"})
-    public void TestUpdateBookingById(){
+    public void TestUpdateBookingById(ITestContext iTestContext){
+        String token = getToken();
+        iTestContext.setAttribute("token",token);
+        System.out.println(token);
+        Integer bookingId = (Integer) iTestContext.getAttribute("bookingid");
 
+        String basePathPut = APIConstants.CREATE_UPDATE_BOOKING_URL+ "/" +bookingId;
+
+        requestSpecification.basePath(basePathPut);
+        response = RestAssured.given(requestSpecification).cookie("token",token).body(payloadManager.FullUpdatePayloadForPut()).log().all().when().put();
+        validatableResponse = response.then().log().all();
+        validatableResponse.statusCode(200);
     }
 
     @Owner("HarisankarR")
     @Description("TC_4-Delete a booking by id")
     @Test(priority = 3,groups = {"qa","prod","si"})
-    public void TestDeleteBookingById(){
+    public void TestDeleteBookingById(ITestContext iTestContext){
+
+        String token= (String) iTestContext.getAttribute("token");
+        Integer bookingId = (Integer) iTestContext.getAttribute("bookingid");
+        String basePathPut = APIConstants.CREATE_UPDATE_BOOKING_URL+ "/" +bookingId;
+
+        response = RestAssured.given(requestSpecification).cookie("token",token).when().delete();
+        validatableResponse = response.then().log().all().statusCode(200);
+
+
+
 
     }
 
